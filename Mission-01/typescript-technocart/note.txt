@@ -14,6 +14,11 @@
         1.  npm install -g typescript   // global install
         2.  tsc -v                      // check version
 
+    iii.  Compile typescript file
+        1.  tsc ./module-1/src/1.11.ts
+            or
+            ts-node-dev --respawn --transpile-only ./module-1/src/1.11.ts
+
 
 
         
