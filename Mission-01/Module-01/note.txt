@@ -1,0 +1,19 @@
+1.  TypeScript installing process step by step:
+    i.  Node js install. 
+        if change node version then run bellow command:
+        1.  winget install Schniz.fnm
+        2.  fnm env --use-on-cd | Out-String | Invoke-Expression
+        3.  fnm use --install-if-missing 23 
+            another command
+            fnm install 20.18.0
+        4.  node -v 
+        5.  fnm list
+        6.  fnm use 20.18.0
+
+    ii.  TypeScript install command
+        1.  npm install -g typescript   // global install
+        2.  tsc -v                      // check version
+
+
+
+        
